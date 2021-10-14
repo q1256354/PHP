@@ -1,0 +1,72 @@
+
+.print_main{
+	font-size:18px;
+}
+.print_form{
+	margin-left:10%;
+}
+.title{
+	text-align: center;
+}
+.label1{
+	margin-left:10%;
+	font-size:40px;
+	letter-spacing:80px;
+}
+.css_table{
+	display: table; width: 90%; border-collapse: collapse;
+}
+.css_tr{
+	display: table-row; height: 30px;
+}
+.css_th{
+	
+	display: table-cell;
+	font-weight: bold;
+	height: 100%;
+	border: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+.css_td{
+	display: table-cell;
+	height: 40px
+}
+.sub-table {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.sub-table-tr {
+	display: table-row;
+	height: 100%;
+ }
+.sub-table-td-title {
+	display: table-cell;
+	height: 100%;
+	border: 1px solid;
+	border-color: #DDDDDD;
+	text-align: left;
+	vertical-align: middle;
+	}
+.sub-table-td {
+	display: table-cell;
+	height: 100%;
+	border: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	}
+.form-control{
+	width:70%;
+	margin-top:1px;
+	resize : none;
+}
+.form-area{
+	width:70%;
+	margin-top:1px;
+	resize : none;
+}
+#contact,#date,#address,#item,#count,#remark,#case_num,#contact_sign,#staff_sign,#contact2,#date2,#address2,#item2,#count2,#remark2,#case_num2,#contact_sign2,#staff_sign2{
+	border:0;
+}

@@ -1,0 +1,113 @@
+﻿html { 
+	height: 100%; 
+}
+body { 
+	height: 100%; 
+	padding: 70px 0 0 0;
+	margin: 0; 
+}
+
+.container{
+	text-align: center;
+	height: 100%;
+}
+
+.btnblock{
+	color: #000000;
+	display: inline-block;
+	width: 320px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.customer{
+	background-color: #BBFFBB;
+}
+.customer:hover{
+	background-color: #53FF53;
+	transition:all 0.5s;
+}
+
+.account{
+	background-color: #DCB5FF;
+}
+.account:hover{
+	background-color: #B15BFF;
+	transition:all 0.5s;
+}
+
+.device{
+	background-color: #ACD6FF;
+}
+.device:hover{
+	background-color: #46A3FF;
+	transition:all 0.5s;
+}
+
+.shipment{
+	background-color: #FFCBB3;
+}
+.shipment:hover{
+	background-color: #FF8F59;
+	transition:all 0.5s;
+}
+
+.leave{
+	background-color: #D8D8EB;
+}
+.leave:hover{
+	background-color: #9999CC;
+	transition:all 0.5s;
+}
+
+.work{
+	background-color: #A3D1D1;
+}
+.work:hover{
+	background-color: #5CADAD;
+	transition:all 0.5s;
+}
+
+.repair{
+	background-color: #FFFFAA;
+}
+.repair:hover{
+	background-color: #F9F900;
+	transition:all 0.5s;
+}
+
+.logout{
+	background-color: #E0E0E0;
+}
+.logout:hover{
+	background-color: #9D9D9D;
+	transition:all 0.5s;
+}
+
+/* Media Query ，也就是當寬度 < 768 px 時將載入下面這段 CSS :*/
+@media only screen and (max-width: 768px) {
+	.btnblock{
+		width: 400px;
+		height: 250px;
+		line-height: 250px;
+		font-size: 28px;
+	}
+}
+
+/* Media Query ，也就是當寬度 < 480 px 時將載入下面這段 CSS :*/
+@media only screen and (max-width: 480px) {
+	.btnblock{
+		width: 250px;
+		height: 150px;
+		line-height: 150px;
+	}
+}
+
+/* Media Query ，也就是當寬度 < 320 px 時將載入下面這段 CSS :*/
+@media only screen and (max-width: 320px) {
+	
+}
