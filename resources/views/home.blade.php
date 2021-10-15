@@ -1,4 +1,4 @@
-@extends('layouts.member')
+@extends('layouts.erp')
 @section('description', 'ERP登入註冊')
 @section('keywords', 'ERP')
 @section('title', '登入註冊')
